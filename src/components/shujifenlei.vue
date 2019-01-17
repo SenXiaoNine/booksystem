@@ -1,6 +1,6 @@
 <template>
 	<div>
-		class
+		书籍分类
 	</div>
 </template>
 

@@ -53,10 +53,6 @@
  .nav{
     width:100%;
     height:80px;
-    display:flex;
-    position:fixed;
-    top:0;
-    left:0;
     background:#1f8dd6;
     z-index:199;
     .lay{

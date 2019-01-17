@@ -1,6 +1,6 @@
 <template>
 	<div>
-		my
+		作者分类
 	</div>
 </template>
 
