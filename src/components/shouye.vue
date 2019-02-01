@@ -10,8 +10,8 @@
 				<button type="submit"><img src="../assets/search_logo_blue.png"></button>
 			</div>
 			<ul class="hot_search">
-				<route-link tag="li" to="/shujifenlei" v-for="search in hot_search" class="classify">{{search.date}}</route-link>
-				<!-- <router-link tag="li" to="/shujifenlei" activeClass="active">书籍分类</router-link> -->
+				<!-- <route-link tag="li" to="./shujifenlei" v-for="search in hot_search" class="classify">{{search.date}}</route-link> -->
+				<li v-for="search in hot_search" class="classify" >{{search.date}}</li>
 			</ul>
 		</div>
 	</div>
@@ -33,9 +33,13 @@
 					{date:'哲学与宗教'},
 					{date:'政治与军事'},
 					{date:'美食'},
-					{date:'更多>>'},
 				]
 			}
+		},
+		computed:{},
+		watch:{},
+		methods:{
+
 		}
 	}
 </script>
