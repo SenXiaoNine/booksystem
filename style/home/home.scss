@@ -1,0 +1,169 @@
+body,h1,h2,h3,h4,h5,h6,p,dl,dt,ul,ol,a,li,img,input{margin:0;padding:0;}
+ul,ol{list-style:none;}
+input{outline:none;}
+body{color:#666; font-size:12px; font-familly:"微软雅黑"}
+img{display:block;}
+
+a{text-decoration:none; color:#333; cursor: pointer;}
+a:hover{text-decoration: underline; color:#1f8dd6;}
+
+.w{width:1200px; margin:0 auto;}
+
+.l{float:left;}
+.r{float:right;}
+
+.topbar{
+	width:100%;
+	height:29px;
+	position:relative;
+	background:#f5f5f5;
+	border-bottom:1px solid #e6e6e6;
+	.w{
+		.l{
+			float:left;
+			ul{
+				display: inline-block;
+				li{
+					display: inline-block;
+					padding-right:20px;
+					height:29px;
+					line-height:29px;
+					a{
+						color:#36c;
+					}
+					a:hover{
+						text-decoration: underline;
+					}
+				}
+			}
+		}
+		.r{
+			float:right;
+			ul{
+				margin-right:-10px;
+				li{
+					float:left;
+					padding:0 10px 0 10px;
+					height:29px;
+					line-height:29px;
+				}
+				li:nth-of-type(2){
+					a{
+						span{
+							display: inline-block;
+							top:13px;
+							right:10px;
+							width:7px;
+							height:7px;
+							background:url(../../resource/imgs/ico_top.png) no-repeat 0 -45px;
+						}
+					}
+				}
+				li:nth-of-type(6){
+					a{
+						span:nth-of-type(1){
+							display: inline-block;
+							top:13px;
+							right:10px;
+							width:15px;
+							height:29px;
+							background:url(../../resource/imgs/ico_top.png) no-repeat -10px 0;
+							float:left;
+						}
+						span:nth-of-type(2){
+							display: inline-block;
+							top:13px;
+							right:10px;
+							width:7px;
+							height:7px;
+							background:url(../../resource/imgs/ico_top.png) no-repeat 0 -45px;
+						}
+					}
+				}
+				li:last-of-type{
+					a{
+						span{
+							display: inline-block;
+							top:13px;
+							right:10px;
+							width:7px;
+							height:7px;
+							background:url(../../resource/imgs/ico_top.png) no-repeat 0 -45px;
+						}
+					}
+				}
+			}
+			.nav_1{
+				.li_1:hover{
+					backgroung:#fff;
+				}
+				.li_1{
+					a:hover{
+						color:#333;
+						text-decoration: none;
+					}
+				}
+				.nav_2{
+					.li_2{
+						
+						.num_2{
+							color:#1f8dd6;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+
+
+
+header .li_3 .nav_2 .li_2{
+	height:73px;
+	width:73px;
+	border:1px solid #eee;
+	position: relative;
+}
+header .li_3 .nav_2 .li_2 span{
+	height:60px;
+	width:60px;
+	background:url(../../resource/imgs/header/wechat.png) no-repeat;
+	background-size: 60px auto;
+	display: inline-block;
+	position: absolute;
+	transform: translate(-50%,-50%);top:50%;left:50%;
+}
+header .nav_4 .li_2{
+	width:59px;
+	height:40px;
+	line-height: 20px;
+	text-align: 5px;
+	border:1px solid #eee;
+	background:#fff;
+}
+header .nav_5 .li_2{
+	width:59px;
+	height:40px;
+	line-height:20px;
+	border:1px solid #eee;
+	padding: 0;
+	background: #fff;
+}
+header .nav_5{
+	background:#fff;
+}
+header .nav_4{
+	background:#fff;
+}
+header .nav_2{
+	display: none;
+	z-index:888;
+	position: relative;
+}
+header .li_1:hover .nav_2{
+	display: block;
+}
+header .nav_2{
+	background: #fff;
+}
