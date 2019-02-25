@@ -1,9 +1,170 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>购物车</title>
+	<meta charset="UTF-8">
+	<title>Document</title>
 </head>
 <body>
+	<!-- ---- header ---- -->
+	<header>
+		<!-- ---- 最上面 ---- -->
+		<div class="w">
+			<div class="l">
+				<ul>
+					<li><a href="">商城首页</a></li>
+					<li>您好，<a href="">123456</a></li>
+					<li><a href="./login.html">退出</a></li>
+				</ul>
+			</div>
+			<div class="r">
+				<ul class="nav_1">
+					<li><a href="">我的订单</a></li>
+						<li class="li_1"><a href="">卖家中心
+							<span></span>
+						</a>
+						<ul class="nav_2 nav_5">
+							<li class="li_2">
+								<a href="">关注的店铺<span class="num_2">30</span></a>
+							</li>
+							<li class="li_2">
+								<a href="">关注的商品<span class="num_2">48</span></a>
+							</li>
+						</ul>
+					</li>
+					<li><a href="">购物车
+						<span>5</span>
+					件</a></li>
+					<li><a href="">帮助中心</a></li>
+					<li>|</li>
+					<li  class="li_1 li_3"><a href="">
+						<span></span>
+						手机商城
+						<span></span>
+						</a>
+						<ul class="nav_2">
+							<li class="li_2">
+								<span class=chat_2></span>
+							</li>
+						</ul>
+					</li>
+					<li><a href="">红衣巷在线</a></li>
+					<li><a href="">招生合作</a></li>
+					<li  class="li_1"><a href="">联系客服
+						<span></span>
+					</a>
+					<ul class="nav_4 nav_2">
+						<li class="li_2">
+							<span>400-688-1999</span>
+						</li>
+					</ul>
+				</li>
+				</ul>
+			</div>
+		</div>
+	</header>
+	<!-- ---- banner ---- -->
+	<div class="banner">
+			<div class="l">
+				<a href="">
+					<img src="../resource/imgs/cart/logo.png" alt="">
+				</a>
+			</div>
+			<div class="r">
+				<ul>
+					<li class="one">加入购物车</li>
+					<li class="two">下订单</li>
+					<li class="two">去付款</li>
+					<li class="two">确认收货</li>
+					<li class="three">评价</li>
+				</ul>
+			</div>
+		</div>
+	</div>
 
+	<!-- shopping -->
+	<div class="shopping">
+		<div class="w">
+			<div class="total">
+				<div class="state">
+					购物车状态
+					<span class="number">（5/30）</span>
+				</div>
+				<div class="price">
+					<input type="submit" value="去结算" class="button">
+					<span class="number">
+						总计（不含运费）：￥
+						<span class="money">549</span>
+					</span>
+				</div>
+			</div>
+			<table>
+		<thead>
+			<tr>
+				<td>
+					<label><input type="checkbox" class="checkall">全选</label>
+				</td>
+				<td>商品</td>
+				<td>单价</td>
+				<td>数量</td>
+				<td>小计</td>
+				<td>操作</td>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>
+					<input type="checkbox" class="check">
+				</td>
+				<td>商品1</td>
+				<td class="price">￥99.00</td>
+				<td>
+					<button class="minus"> - </button>
+					<span class="count"> 1 </span>
+					<button class="add"> + </button>
+				</td>
+				<td class="sum"> 0 </td>
+				<td>
+					<a href="javascript:;">删除</a>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<input type="checkbox" class="check">
+				</td>
+				<td>商品2</td>
+				<td class="price">￥39.00</td>
+				<td>
+					<button class="minus"> - </button>
+					<span class="count"> 1 </span>
+					<button class="add"> + </button>
+				</td>
+				<td class="sum"> 0 </td>
+				<td>
+					<a href="javascript:;">删除</a>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<input type="checkbox" class="check">
+				</td>
+				<td>商品3</td>
+				<td class="price">￥5699.00</td>
+				<td>
+					<button class="minus"> - </button>
+					<span class="count"> 1 </span>
+					<button class="add"> + </button>
+				</td>
+				<td class="sum"> 0 </td>
+				<td>
+					<a href="javascript:;">删除</a>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	<!-- <div>
+		<span class="sum-all">1000</span>
+	</div> -->
+		</div>
+	</div>
 </body>
 </html>
